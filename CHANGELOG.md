@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.22] - 2024-04-12
+
+### <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- Update dependencies and section title in `robocraft.md`
+
 ## [0.0.20] - 2024-04-12
 
 ### <!-- 3 -->📚 Documentation
