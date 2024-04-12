@@ -1,6 +1,6 @@
 [package]
 name = "robocraft"
-version = "0.0.18"
+version = "0.0.19"
 authors = ["Trim Bresilla <trim.bresilla@gmail.com>"]
 edition = "2018"
 
