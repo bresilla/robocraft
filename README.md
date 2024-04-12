@@ -3,7 +3,7 @@
 </p>
 
 
-<a href="https://robo-craft.github.io/" style="color: rgb(179, 128, 255)"></a><h2><p align="center" style="color: rgb(179, 128, 255)">https://robo-craft.github.io/</p></h2></a>
+<a href="https://bresilla.github.io/robocraft/" style="color: rgb(179, 128, 255)"></a><h2><p align="center" style="color: rgb(179, 128, 255)">https://bresilla.github.io/robocraft/</p></h2></a>
 
 <p align="center">
   <a href="https://github.com/follang/fol/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
