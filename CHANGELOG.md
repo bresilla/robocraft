@@ -1,16 +1,10 @@
 # Changelog
 
-## [0.0.23] - 2024-04-12
+## [] - 2024-04-12
 
 ### <!-- 7 -->⚙️ Miscellaneous Tasks
 
-- Update logo.svg attributes and paths
-
-## [0.0.22] - 2024-04-12
-
-### <!-- 7 -->⚙️ Miscellaneous Tasks
-
-- Update dependencies and section title in `robocraft.md`
+- Update version numbers, logo, and introduction section
 
 ## [0.0.20] - 2024-04-12
 
