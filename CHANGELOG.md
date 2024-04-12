@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.23] - 2024-04-12
+
+### <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- Update logo.svg attributes and paths
+
 ## [0.0.22] - 2024-04-12
 
 ### <!-- 7 -->⚙️ Miscellaneous Tasks
