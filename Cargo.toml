@@ -1,0 +1,11 @@
+[package]
+name = "robocraft"
+version = "0.1.4"
+authors = ["Trim Bresilla <trim.bresilla@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1"
+colored = "1"
+dyn-clone = "1"
+
