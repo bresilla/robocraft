@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.0.20] - 2024-04-12
+
+### <!-- 3 -->📚 Documentation
+
+- Update documentation files with new content and improvements
+
 ## [0.0.19] - 2024-04-12
 
 ### <!-- 7 -->⚙️ Miscellaneous Tasks
