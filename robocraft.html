@@ -88,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="roboforge.html" class="active"><strong aria-hidden="true">1.</strong> Intro</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="robocraft.html" class="active"><strong aria-hidden="true">1.</strong> Intro</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -173,43 +173,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h2 id="intro"><a class="header" href="#intro">INTRO</a></h2>
-<h2 id="everything-in-fol-follows-the-same-structure"><a class="header" href="#everything-in-fol-follows-the-same-structure">Everything in FOL follows the same structure:</a></h2>
-<pre><code>declaration[options] name: type[options] = { implementation; };
-</code></pre>
-<h2 id="declarations"><a class="header" href="#declarations">declarations</a></h2>
-<pre><code>use    // imports, includes ...
-def    // macros, bocks, definitions ...
-
-var    // all variables: ordinal, container, complex, special
-
-pro    // subporgrams with side effects - procedures
-fun    // subporgrams with no side effects - functions
-log    // subporgrams with logic only - logicals
-
-typ    // new types: records, entries, classes, aiases, extensions
-std    // standards: protocols, blueprints
-</code></pre>
-<h2 id="control-flow"><a class="header" href="#control-flow">control flow</a></h2>
-<pre><code>when(condition){ case (){}; case (){}; * {}; };
-loop(condition){  };
-</code></pre>
-<hr>
-<h2 id="example"><a class="header" href="#example">example</a></h2>
-<pre><code>use log: mod[std] = {fmt::log};
-
-def argo: mod[init] = {
-    
-    -var const: str = "something here"
-
-    +pro main: int = {
-        log.warn("Last warning!...");
-        .echo(add(3, 5));
-    }
-
-    fun add(a, b: int): int = { a + b }
-}
-</code></pre>
+                        <h2 id="robocraft"><a class="header" href="#robocraft">ROBOCRAFT</a></h2>
 
                     </main>
 
