@@ -3,9 +3,8 @@
   <img src="images/logo.png" />
 </p>
 
-# ROBOCRAFT
 
-## Introduction
+### Introduction
 
 Robocraft is a framework for building robots developed in Rust using:
 

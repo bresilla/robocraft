@@ -8,4 +8,10 @@ edition = "2018"
 regex = "1"
 colored = "1"
 dyn-clone = "1"
+zenoh = { version = "0.10.1-rc", features = ["shared-memory"]}
+arrow = "51.0.0"
+parquet = "51.0.0"
+rerun = "0.15.1"
+tracing = "0.1.40"
+
 
