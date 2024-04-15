@@ -6,7 +6,7 @@ resolver = "2"
 
 [workspace.package]
 # name = "robocraft"
-version = "0.0.1"
+version = "0.0.25"
 authors = ["Trim Bresilla <trim.bresilla@gmail.com>"]
 edition = "2021"
 
