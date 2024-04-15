@@ -24,23 +24,20 @@ const ABOUT_STR: &str = "general-purpose robotics building blocks framework";
 pub fn cli(logo: bool) -> Command {
     let _logo_1: String ="
                  █████                 
-                █▓▓▓▓▓█                
        ███     ██▓▓▓▓▓██     ███       
      ███▓███████▓▓▓▓▓▓▓███████▓███     
     ███▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███    
-     ██▓▓▓████▓▓▓▓▓▓▓▓▓▓▓████▓▓▓██      
-      █▓███  ███▓▓▓▓▓▓▓███  ███▓█      
+     ██▓▓▓█▀▀█▓▓▓▓▓▓▓▓▓▓▓█▀▀█▓▓▓██      
       ███  ▄▄  ██▓▓▓▓▓██  ▄▄  ███      
   ▄█████  ████  █▓▓▓▓▓█  ████  █████▄  
- ██▓▓▓▓██ ▀██▀ ██▓▓▓▓▓██ ▀██▀ ██▓▓▓▓██ 
- █▓▓▓▓▓▓█  ▀▀  █▓▓▓▓▓▓▓█  ▀▀  █▓▓▓▓▓▓█ 
+ ██▓▓▓▓█▄ ▀██▀ ▄█▓▓▓▓▓█▄ ▀██▀ ▄█▓▓▓▓██ 
+ █▓▓▓▓▓▓█▄ ▀▀ ▄█▓▓▓▓▓▓▓█▄ ▀▀ ▄█▓▓▓▓▓▓█ 
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ 
       ████                   ████       
        █▓▓██               ██▓▓█        
       ██▓▓▓▓███▄▄     ▄▄███▓▓▓▓██      
      ███▓▓███████████████████▓▓███     
        ███    ███▓▓▓▓▓███    ███       
-                █▓▓▓▓▓█                 
                  ▀███▀    \n".bright_red().to_string();
 
     let logo_str: String = if logo {_logo_1 } else { String::new() };
@@ -50,7 +47,9 @@ Usage:".bright_blue().bold().to_string().as_str()+"  rc".bright_green().bold().t
       ".bright_blue().bold().to_string().as_str()+"  rc".bright_green().bold().to_string().as_str()+" <C>".green().to_string().as_str()+"
 
 Utilities Commands:".bright_blue().bold().to_string().as_str()+"
-  "+ &command_str("action") + "      "+&letter_str("a")+ &descriptin_str("Various action subcommands");
+  "+ &command_str("deamon") + "      "+&letter_str("d")+ &descriptin_str("Control the deamon process")  + "
+  "+ &command_str("supervisor") + "  "+&letter_str("s")+ &descriptin_str("Control the supervisor process")  + "
+  ";
 
     let styles = styling::Styles::styled()
         .header(styling::AnsiColor::Blue.on_default() | styling::Effects::BOLD)
