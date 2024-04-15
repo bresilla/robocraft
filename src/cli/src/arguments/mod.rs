@@ -48,7 +48,9 @@ Usage:".bright_blue().bold().to_string().as_str()+"  rc".bright_green().bold().t
 
 Utilities Commands:".bright_blue().bold().to_string().as_str()+"
   "+ &command_str("deamon") + "      "+&letter_str("d")+ &descriptin_str("Control the deamon process")  + "
-  "+ &command_str("supervisor") + "  "+&letter_str("s")+ &descriptin_str("Control the supervisor process")  + "
+  "+ &command_str("supervisor") + "  "+&letter_str("s")+ &descriptin_str("Run supervision tasks")  + "
+  "+ &command_str("workspace") + "   "+&letter_str("w")+ &descriptin_str("Manage workspaces")  + "
+  "+ &command_str("module") + "      "+&letter_str("m")+ &descriptin_str("Create modules")  + "
   ";
 
     let styles = styling::Styles::styled()
