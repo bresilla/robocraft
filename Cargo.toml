@@ -1,20 +1,28 @@
-[package]
-name = "robocraft"
-version = "0.0.25"
+[workspace]
+members = [
+    "src/cli"
+]
+resolver = "2"
+
+[workspace.package]
+# name = "robocraft"
+version = "0.0.1"
 authors = ["Trim Bresilla <trim.bresilla@gmail.com>"]
 edition = "2021"
 
-[[bin]]
-    name = "rc"
-    path = "src/main.rs"
 
-[dependencies]
-    clap = { version = "4.3.23", features = ["derive"] }    
-    regex = "1"
-    colored = "1"
-    dyn-clone = "1"
-    zenoh = { version = "0.10.1-rc", features = ["shared-memory"]}
-    arrow = "51.0.0"
-    parquet = "51.0.0"
-    rerun = "0.15.1"
-    tracing = "0.1.40"
+
+# [[bin]]
+#     name = "rc"
+#     path = "src/main.rs"
+
+# [dependencies]
+#     clap = { version = "4.3.23", features = ["derive"] }    
+#     regex = "1"
+#     colored = "1"
+#     dyn-clone = "1"
+#     zenoh = { version = "0.10.1-rc", features = ["shared-memory"]}
+#     arrow = "51.0.0"
+#     parquet = "51.0.0"
+#     rerun = "0.15.1"
+#     tracing = "0.1.40"
