@@ -1,5 +1,5 @@
 fn main() {
-    println!("one")
+    println!("cli-- ")
 }
 
 #[test]
