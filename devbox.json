@@ -4,7 +4,20 @@
     "cargo@latest",
     "rust-analyzer@latest",
     "clippy@latest",
-    "vscode-extensions.llvm-org.lldb-vscode@latest"
+    "vscode-extensions.llvm-org.lldb-vscode@latest",
+    "xorg.libX11@latest",
+    "xorg.libxcb@latest",
+    "xorg.libXau@latest",
+    "xorg.libXdmcp@latest",
+    "xorg.libXcursor@latest",
+    "xorg.libXrandr@latest",
+    "xorg.libXi@latest",
+    "xorg.libXext@latest",
+    "xorg.libXfixes@latest",
+    "libxkbcommon@latest",
+    "wayland@latest",
+    "mesa@latest",
+    "libGL@latest"
   ],
   "shell": {
     "init_hook": [

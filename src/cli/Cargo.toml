@@ -19,3 +19,4 @@ edition.workspace = true
     anyhow = "1.0.75"
     getset = "0.1.2"
     colored = "2.0.4"
+    robocraft_gui = { path = "../gui" }

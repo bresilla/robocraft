@@ -1,4 +1,5 @@
 pub mod topic;
+pub mod launch;
 
 use clap::{Command, builder::styling, arg};
 use colored::Colorize;
@@ -46,6 +47,9 @@ pub fn cli(logo: bool) -> Command {
 Usage:".bright_blue().bold().to_string().as_str()+"  rc".bright_green().bold().to_string().as_str()+" <COMMAND>".green().to_string().as_str()+"
       ".bright_blue().bold().to_string().as_str()+"  rc".bright_green().bold().to_string().as_str()+" <C>".green().to_string().as_str()+"
 
+Interface Commands:".bright_blue().bold().to_string().as_str()+"
+  "+ &command_str("launch") + "      "+&letter_str("l")+ &descriptin_str("Launch the GUI application")  + "
+
 Utilities Commands:".bright_blue().bold().to_string().as_str()+"
   "+ &command_str("deamon") + "      "+&letter_str("d")+ &descriptin_str("Control the deamon process")  + "
   "+ &command_str("supervisor") + "  "+&letter_str("s")+ &descriptin_str("Run supervision tasks")  + "
@@ -71,6 +75,7 @@ Utilities Commands:".bright_blue().bold().to_string().as_str()+"
         .allow_external_subcommands(false)
         .disable_help_subcommand(true)
         .override_help(logo_str + &help_str)
+        .subcommand(launch::cmd())
         .subcommand(topic::cmd())
         .arg(arg!(--about "about"))
 }
